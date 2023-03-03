@@ -8,7 +8,7 @@ sys.path.insert(0, abs_path_pkg)
 from sklearn.neighbors import KNeighborsClassifier as KNN
 from sklearn.ensemble import RandomForestClassifier as RF
 from sklearn.svm import SVC as SVM
-from sklearn.metrics import precision_score, recall_score, f1_score, plot_confusion_matrix, confusion_matrix
+from sklearn.metrics import precision_score, recall_score, f1_score, ConfusionMatrixDisplay, confusion_matrix
 
 import numpy as np
 import matplotlib.pyplot as plt
